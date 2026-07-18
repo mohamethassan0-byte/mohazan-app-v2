@@ -428,7 +428,7 @@ export default function Mohazan() {
         </div>
       )}
 
-
+      {showSettings && (
         <div style={{ position: "absolute", inset: 0, background: "rgba(21,39,34,0.55)", zIndex: 30, display: "flex", alignItems: "center", justifyContent: "center", padding: 20 }}>
           <div style={{ background: TOKENS.paper, borderRadius: 12, padding: 20, width: 280 }}>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 14 }}>
